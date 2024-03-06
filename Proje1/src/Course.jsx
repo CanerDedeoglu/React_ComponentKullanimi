@@ -5,7 +5,7 @@ const Course = ({image,title, description}) => {
   return (
     <div className="card">
   <div className="card-image">
-    <figure className="image is-4by3">
+    <figure >
       <img src={image} alt="Kurslarım"/>
     </figure>
   </div>
